@@ -1,0 +1,14 @@
+.login-card {
+    min-height: 60vh;
+}
+
+.registerMessage {
+    margin-top: 10vh;
+}
+
+.loginForm {
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+  margin-top: 100px;
+}
