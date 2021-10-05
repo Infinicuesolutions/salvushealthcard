@@ -1,8 +1,8 @@
 {
-  "homepage": "https://Infinicuesolutions.github.io/emidsdashboard",
-  "name": "emidsdashboard",
+  "homepage": "https://Infinicuesolutions.github.io/emidssalvusdashboard",
+  "name": "emidssalvusdashboard",
   "version": "1.10.0",
-  "description": "emidsdashboard",
+  "description": "emidssalvusdashboard",
   "private": false,
   "main": "dist/index.js",
   "dependencies": {

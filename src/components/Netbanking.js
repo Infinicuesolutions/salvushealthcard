@@ -106,12 +106,12 @@ class Register extends Component {
     
     <div style={{display:'flex',flexWrap:'wrap',alignItems:'center',marginLeft:200}}>
       <p style={{padding:0,marginTop:8,fontSize:'16px',fontWeight: 'bold'}}>Name :</p>
-      <p style={{padding:0,marginTop:8,fontSize:'16px',marginLeft:5}}>Santosh</p>
+      <p style={{padding:0,marginTop:8,fontSize:'16px',marginLeft:5}}>Suresh</p>
       </div>
     
       <div style={{display:'flex',flexWrap:'wrap',alignItems:'center',marginLeft:200}}>
       <p style={{padding:0,marginTop:8,fontSize:'16px',fontWeight: 'bold'}}>Phone number :</p>
-      <p style={{padding:0,marginTop:8,fontSize:'16px',marginLeft:5}}>7411746641</p>
+      <p style={{padding:0,marginTop:8,fontSize:'16px',marginLeft:5}}>7760824832</p>
       </div>
     
       <div style={{display:'flex',flexWrap:'wrap',alignItems:'center',marginLeft:200}}>
@@ -121,7 +121,7 @@ class Register extends Component {
     
       <div style={{display:'flex',flexWrap:'wrap',alignItems:'center',marginLeft:200}}>
       <p style={{padding:0,marginTop:8,fontSize:'16px',fontWeight: 'bold'}}>Age :</p>
-      <p style={{padding:0,marginTop:8,fontSize:'16px',marginLeft:5}}>25</p>
+      <p style={{padding:0,marginTop:8,fontSize:'16px',marginLeft:5}}>26</p>
       </div>
     
       <div style={{display:'flex',flexWrap:'wrap',alignItems:'center',marginLeft:200}}>
