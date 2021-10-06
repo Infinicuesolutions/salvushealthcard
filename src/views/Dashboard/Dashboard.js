@@ -95,21 +95,21 @@ export default function Dashboard() {
 
     setInterval(() => {
 
-      const headers = {'Type': "Emids Card"};
-      axios.get(neturl+"Emidsuser/", {headers })
+      const headers = {'Type': "Health Card"};
+      axios.get(neturl+"Healthuser/", {headers })
       .then((res) => {
         console.log("Hello22345678");
         const debitCount = res.data.Result;
-        console.log("DATA  Emids Card" + JSON.stringify(debitCount));
+        console.log("DATA  Health Card" + JSON.stringify(debitCount));
         debitCounts(debitCount);
       });
   
       {
-      const headers = {'Type': "Emids Card"};
-      axios.get(neturl+"EmidsEvent/", {headers })
+      const headers = {'Type': "Health Card"};
+      axios.get(neturl+"HealthEvent/", {headers })
       .then((res) => {
         const creditCount = res.data.Result;
-        console.log("DATA  Emids Event" + JSON.stringify(creditCount));
+        console.log("DATA  Health Event" + JSON.stringify(creditCount));
         creditCounts(creditCount);
       });
     }
@@ -133,10 +133,10 @@ export default function Dashboard() {
     //   });
     // }
     {
-    const headers = {'Type': "Emids Card"};
-      axios.get(neturl+"Emidsfraud/", { headers })
+    const headers = {'Type': "Health Card"};
+      axios.get(neturl+"Healthfraud/", { headers })
         .then((res) => {
-        console.log("DATA  Emids Card@@@@@@@@@@@" + JSON.stringify(res.data));
+        console.log("DATA  Health Card@@@@@@@@@@@" + JSON.stringify(res.data));
   
         const gr1 = res.data.AM12;
         const gr2 = res.data.AM4;
@@ -217,7 +217,7 @@ export default function Dashboard() {
               <CardIcon color="warning">
                 <CreditCardIcon></CreditCardIcon>
               </CardIcon>
-              <p className={classes.cardCategory}>Emids user</p>
+              <p className={classes.cardCategory}>Health card user</p>
               <h3 className={classes.cardTitle}>{countDebit}</h3>
               {/* <h3 className={classes.cardTitle}>3</h3> */}
             </CardHeader>
@@ -243,7 +243,7 @@ export default function Dashboard() {
               <CardIcon color="warning">
                 <CreditCardIcon></CreditCardIcon>
               </CardIcon>
-              <p className={classes.cardCategory}>Emids real time</p>
+              <p className={classes.cardCategory}>Health card real time</p>
               <h3 className={classes.cardTitle}>{countCredit}</h3>
               {/* <h3 className={classes.cardTitle}>5</h3> */}
             </CardHeader>

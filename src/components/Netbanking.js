@@ -50,7 +50,7 @@ class Register extends Component {
     // {
       console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" + "ENTERED11"+this.state.ip);
 
-      axios.post(neturl+'transaction', {CardNumber:this.state.email,Phone:this.state.password,type_of_transaction:"Emids",Ip:this.state.ip})
+      axios.post(neturl+'transaction', {CardNumber:this.state.email,Phone:this.state.password,type_of_transaction:"Health",Ip:this.state.ip})
 // const Username=this.state.email;
 // const Password=this.state.password;
 // const Ip=this.state.ip;
@@ -106,12 +106,12 @@ class Register extends Component {
     
     <div style={{display:'flex',flexWrap:'wrap',alignItems:'center',marginLeft:200}}>
       <p style={{padding:0,marginTop:8,fontSize:'16px',fontWeight: 'bold'}}>Name :</p>
-      <p style={{padding:0,marginTop:8,fontSize:'16px',marginLeft:5}}>Suresh</p>
+      <p style={{padding:0,marginTop:8,fontSize:'16px',marginLeft:5}}>Santosh</p>
       </div>
     
       <div style={{display:'flex',flexWrap:'wrap',alignItems:'center',marginLeft:200}}>
       <p style={{padding:0,marginTop:8,fontSize:'16px',fontWeight: 'bold'}}>Phone number :</p>
-      <p style={{padding:0,marginTop:8,fontSize:'16px',marginLeft:5}}>7760824832</p>
+      <p style={{padding:0,marginTop:8,fontSize:'16px',marginLeft:5}}>7411746648</p>
       </div>
     
       <div style={{display:'flex',flexWrap:'wrap',alignItems:'center',marginLeft:200}}>
@@ -166,7 +166,7 @@ class Register extends Component {
                        <br/>
 
            <TextField
-             hintText="Enter your emids card number"
+             hintText="Enter your health card number"
              type="username"
              floatingLabelText="Card number"
              onChange = {(event,newValue1) => this.setState({email:newValue1})}

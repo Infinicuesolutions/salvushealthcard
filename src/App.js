@@ -26,10 +26,10 @@ function App() {
             <Route path="/login">
               <LoginForm showError={updateErrorMessage} updateTitle={updateTitle}/>
             </Route>
-            <Route path="/netbanking">
+            <Route path="/provider">
               <NetForm showError={updateErrorMessage} updateTitle={updateTitle}/>
             </Route>
-            <Route path="/onlinebanking">
+            <Route path="/payee">
               <OnlineForm showError={updateErrorMessage} updateTitle={updateTitle}/>
             </Route>
             <Route path="/aeps">

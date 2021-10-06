@@ -50,7 +50,7 @@ class Register extends Component {
     // {
       console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" + "ENTERED11"+this.state.ip);
 
-      axios.post(neturl+'Hospital', {Card_No:this.state.email,Phone:this.state.password,type_of_transaction:"Emids Card",Ip:this.state.ip})
+      axios.post(neturl+'Hospital', {Card_No:this.state.email,Phone:this.state.password,type_of_transaction:"Health Card",Ip:this.state.ip})
       .then((response) => {
         // .then(function (response) {
         const debitCount = response.data.Data;
@@ -92,7 +92,7 @@ class Register extends Component {
                        <br/>
 
            <TextField
-             hintText="Enter your card number"
+             hintText="Enter your health card number"
              type="username"
              floatingLabelText="Card number"
              onChange = {(event,newValue1) => this.setState({email:newValue1})}

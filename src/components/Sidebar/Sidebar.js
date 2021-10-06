@@ -84,7 +84,7 @@ export default function Sidebar(props) {
           [classes.logoLinkRTL]: props.rtlActive,
         })}>DEMO</h5>
         <a
-        href="#/netbanking"
+        href="#/provider"
         className={classNames(classes.logoLinknetbanking, {
           [classes.logoLinkRTL]: props.rtlActive,
         })}
@@ -94,7 +94,7 @@ export default function Sidebar(props) {
       </a>
 
       <a
-        href="#/onlinebanking"
+        href="#/payee"
         className={classNames(classes.logoLinkbanking, {
           [classes.logoLinkRTL]: props.rtlActive,
         })}

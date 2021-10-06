@@ -1,8 +1,8 @@
 {
-  "homepage": "https://Infinicuesolutions.github.io/emidssalvusdashboard",
-  "name": "emidssalvusdashboard",
+  "homepage": "https://Infinicuesolutions.github.io/salvushealthcard",
+  "name": "salvushealthcard",
   "version": "1.10.0",
-  "description": "emidssalvusdashboard",
+  "description": "salvushealthcard",
   "private": false,
   "main": "dist/index.js",
   "dependencies": {
