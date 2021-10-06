@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/salvushealthcard/static/css/main.8e8bcea8.chunk.css",
+    "main.js": "/salvushealthcard/static/js/main.3807d48e.chunk.js",
+    "main.js.map": "/salvushealthcard/static/js/main.3807d48e.chunk.js.map",
+    "runtime-main.js": "/salvushealthcard/static/js/runtime-main.f9600959.js",
+    "runtime-main.js.map": "/salvushealthcard/static/js/runtime-main.f9600959.js.map",
+    "static/css/2.1881a404.chunk.css": "/salvushealthcard/static/css/2.1881a404.chunk.css",
+    "static/js/2.3e5b4aeb.chunk.js": "/salvushealthcard/static/js/2.3e5b4aeb.chunk.js",
+    "static/js/2.3e5b4aeb.chunk.js.map": "/salvushealthcard/static/js/2.3e5b4aeb.chunk.js.map",
+    "index.html": "/salvushealthcard/index.html",
+    "static/css/2.1881a404.chunk.css.map": "/salvushealthcard/static/css/2.1881a404.chunk.css.map",
+    "static/css/main.8e8bcea8.chunk.css.map": "/salvushealthcard/static/css/main.8e8bcea8.chunk.css.map",
+    "static/js/2.3e5b4aeb.chunk.js.LICENSE.txt": "/salvushealthcard/static/js/2.3e5b4aeb.chunk.js.LICENSE.txt",
+    "static/js/main.3807d48e.chunk.js.LICENSE.txt": "/salvushealthcard/static/js/main.3807d48e.chunk.js.LICENSE.txt",
+    "static/media/salvus-R_logo.54958d58.png": "/salvushealthcard/static/media/salvus-R_logo.54958d58.png",
+    "static/media/sidebar-1.0a127c58.jpg": "/salvushealthcard/static/media/sidebar-1.0a127c58.jpg",
+    "static/media/sidebar-2.22f68ba5.jpg": "/salvushealthcard/static/media/sidebar-2.22f68ba5.jpg",
+    "static/media/sidebar-3.e667b13e.jpg": "/salvushealthcard/static/media/sidebar-3.e667b13e.jpg",
+    "static/media/sidebar-4.dd4b5581.jpg": "/salvushealthcard/static/media/sidebar-4.dd4b5581.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9600959.js",
+    "static/css/2.1881a404.chunk.css",
+    "static/js/2.3e5b4aeb.chunk.js",
+    "static/css/main.8e8bcea8.chunk.css",
+    "static/js/main.3807d48e.chunk.js"
+  ]
+}
